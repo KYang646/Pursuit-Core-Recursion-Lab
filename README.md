@@ -17,7 +17,7 @@ if (n == 0) {
 return 0
 }
 
-return sumOfNumbers(n: n - 1) + n
+return sumOfNumbers(n: n) + (n - 1)
 }
 
 sumOfNumbers(n: 6)
